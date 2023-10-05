@@ -110,3 +110,12 @@ button.cta:hover{
         opacity: 1;
     }    
 }
+
+.phone{
+    position: fixed;
+    bottom: 20px;
+    margin-left: 20px;
+    width: 60px;
+    background-color: rgb(1, 71, 22);
+    border-radius: 100%;
+}
