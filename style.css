@@ -1,0 +1,24 @@
+.logolacoste{
+    height: 100px;
+}
+
+nav>div{
+    display: flex;
+    gap: 120px;
+    align-items: center;
+}
+
+.search-bar{
+    color: grey;
+    background-color: rgb(188, 180, 180);
+    border-radius: 15px;
+    height: 50px;
+    width: 80%;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.link{
+    justify-content: center;
+    width: 100%;
+}
