@@ -1,10 +1,15 @@
+body{
+    margin: 0;
+}
+
 .logolacoste{
     height: 100px;
+    margin-left: 20px;
 }
 
 nav>div{
     display: flex;
-    gap: 120px;
+    gap: 40px;
     align-items: center;
 }
 
@@ -26,11 +31,82 @@ nav>div{
 .link{
     justify-content: center;
     width: 100%;
-    border-radius: 10px;
     background-color: rgb(30, 114, 68);
+}
+
+.link a{
+   text-decoration: none;
 }
 
 .polo{
     margin-top: 20px;
     height: 500px;
+    border-radius: 10px;
+    margin-left: 16px;
+}
+
+.slogan{
+    display: flex;
+    background-image: url(img/bannièrelacoste.webp);
+    background-repeat: no-repeat;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.slogan h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 6%;
+    font-weight: bold;
+    position: relative;
+    animation: lefttoright 1s;
+}
+
+.textpolo{
+    display: flex;
+    text-align: center;
+}
+
+.description{
+    margin: 40px;
+    width: 65%;
+    height: 100%;
+}
+
+.description p{
+    font-size: 20px;
+}
+
+.cta {
+    display: block; 
+    background: rgb(30, 114, 68); 
+    color: #ffffff; 
+    text-align: center; 
+    font-weight: bold; 
+    font-size: 90%; 
+    font-family: Arial; 
+    border-radius: 20px; 
+    text-decoration: none;
+    margin: auto;
+    margin-top: 30px;
+    align-content: center;
+    padding: 15px;
+}
+
+button.cta:hover{
+    background-color: rgb(1, 71, 22);
+}
+
+/* Annimation */
+@keyframes lefttoright {
+    0%{
+        left: -300px;
+        opacity: 0;
+    }
+    100%{
+        left: 0;
+        opacity: 1;
+    }    
 }
