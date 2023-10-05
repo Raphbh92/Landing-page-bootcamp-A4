@@ -34,13 +34,15 @@ nav>div{
     background-color: rgb(30, 114, 68);
 }
 
+/* Supprimer le soulignement des  liens*/
 .link a{
    text-decoration: none;
 }
 
+/* photo polo */
 .polo{
     margin-top: 20px;
-    height: 500px;
+    height: 600px;
     border-radius: 10px;
     margin-left: 16px;
 }
@@ -70,15 +72,18 @@ nav>div{
 }
 
 .description{
-    margin: 40px;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
     width: 65%;
     height: 100%;
 }
-
+/* taille du texte*/
 .description p{
     font-size: 20px;
 }
 
+/* call-to-action*/
 .cta {
     display: block; 
     background: rgb(30, 114, 68); 
