@@ -124,3 +124,37 @@ button.cta:hover{
     background-color: rgb(1, 71, 22);
     border-radius: 100%;
 }
+
+@media screen and (max-width: 1024px) {
+    .textpolo{
+        flex-direction: column;
+    }
+
+    .polo{
+        height: 450px;
+        object-fit: cover;
+        margin-inline: 8px;
+    }
+
+    .slogan h1{
+        font-size: 30px;
+        padding-top: 90px;
+    }
+
+    .link{
+        flex-wrap: wrap;
+        column-gap: 30px;
+        row-gap: 0;
+    }
+
+    .description{
+        margin-top: 8px;
+        margin-inline: auto;
+        margin-bottom: 16px;
+    }
+
+    .search-bar{
+        margin-right: 8px;
+    }
+}
+
